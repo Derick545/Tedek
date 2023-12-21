@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textColor="@color/font"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:text="Register"
+        />
+
+    <EditText
+        android:id="@+id/emailEdt"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:ems="10"
+        android:layout_marginTop="25sp"
+        android:textSize="20sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_gravity="center"
+        android:padding="15px"
+        android:drawableLeft="@drawable/mail"
+        android:background="@drawable/textbox"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textColor="@color/font"
+        android:hint="Email"
+        android:textColorHint="@color/font"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/passwordEdt"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:ems="10"
+        android:layout_marginTop="25sp"
+        android:textSize="20sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_gravity="center"
+        android:padding="15px"
+        android:drawableLeft="@drawable/lock"
+        android:background="@drawable/textbox"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textColor="@color/font"
+        android:hint="Password"
+        android:textColorHint="@color/font"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/confirmPasswordEdt"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:ems="10"
+        android:layout_marginTop="25sp"
+        android:textSize="20sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_gravity="center"
+        android:padding="15px"
+        android:drawableLeft="@drawable/lock"
+        android:fontFamily="@font/akaya_telivigala"
+        android:background="@drawable/textbox"
+        android:textColor="@color/font"
+        android:hint="Confirm Password"
+        android:textColorHint="@color/font"
+        android:inputType="textPassword" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/registerBtn"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35sp"
+        android:textColor="@color/font"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:text="REGISTER" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80sp"
+            android:layout_marginTop="10sp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="Already Have an Account?"
+            android:textColor="@color/font"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/loginTxt"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_weight="1"
+
+            android:gravity="left"
+            android:text="    Login"
+            android:textColor="@color/link"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/progress"
+        android:layout_width="45dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:lottie_autoPlay="true"
+        app:lottie_colorFilter="@color/card"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/prog" />
+
+</LinearLayout>

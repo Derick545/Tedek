@@ -1,0 +1,3 @@
+com.example.tedek.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

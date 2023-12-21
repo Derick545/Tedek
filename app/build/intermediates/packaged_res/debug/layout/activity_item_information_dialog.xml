@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:orientation="vertical"
+    tools:context=".ItemInformationDialog">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <ImageView
+            android:id="@+id/backImg"
+            android:layout_width="48dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="5sp"
+            android:src="@drawable/back" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/titleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/font"
+        android:textSize="30sp"
+        android:text="Title"
+    />
+
+
+    <ImageView
+        android:id="@+id/itemImg"
+        android:layout_width="223dp"
+        android:layout_height="203dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="13sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:padding="15px"
+            android:text="Author:"
+            android:textColor="@color/font"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/authorTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/font"
+            android:padding="15px"
+            android:textSize="22dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15sp"
+            android:layout_weight="1"
+            android:text="John Smith"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13sp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/year"
+            android:layout_width="14dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:padding="15px"
+            android:text="Year:"
+            android:textColor="@color/font"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/yearTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/font"
+            android:padding="15px"
+            android:textSize="22dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15sp"
+            android:layout_weight="1"
+            android:text="2010" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="13sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="14dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+
+            android:layout_weight="1"
+            android:padding="15px"
+            android:text="Category:"
+            android:textColor="@color/font"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/categoryTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/font"
+            android:padding="15px"
+            android:textSize="22dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15sp"
+            android:layout_weight="1"
+            android:text="Books"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="15sp"
+        android:textColor="@color/font"
+        android:padding="15px"
+        android:textSize="22dp"
+        android:layout_marginLeft="15dp"
+        android:text="Description:"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="3sp"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15sp"
+            android:layout_weight="1"
+            android:padding="15px"
+            android:text="kjhkj kjashdkj ashdkj haskjdhsjkadhajkshdaskd sajkdhksjahdjdhasjkdhs"
+            android:textColor="@color/font"
+            android:textSize="22dp" />
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "656895618095",
+    "firebase_url": "https://tedek-c6a96-default-rtdb.firebaseio.com",
+    "project_id": "tedek-c6a96",
+    "storage_bucket": "tedek-c6a96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656895618095:android:8d39a1c818d89b37a92ada",
+        "android_client_info": {
+          "package_name": "com.example.tedek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656895618095-59555r5ds36p8fvbm1hctnf5p88lsurj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfWbIyXwWiOHT-x7eSjaYw_j2G9RgP9ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656895618095-59555r5ds36p8fvbm1hctnf5p88lsurj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656895618095:android:96cbdef3d039a26fa92ada",
+        "android_client_info": {
+          "package_name": "com.group.tedekfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656895618095-59555r5ds36p8fvbm1hctnf5p88lsurj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfWbIyXwWiOHT-x7eSjaYw_j2G9RgP9ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656895618095-59555r5ds36p8fvbm1hctnf5p88lsurj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

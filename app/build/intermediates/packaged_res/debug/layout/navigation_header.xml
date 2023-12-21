@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250sp"
+    android:layout_height="145sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/card">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="25sp"
+        android:id="@+id/displayPicH"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/font"
+        android:layout_marginBottom="5sp"
+        />
+
+    <TextView
+        android:id="@+id/nameTxtH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:layout_marginStart="10dp"
+        android:textSize="18sp"
+        android:layout_marginTop="50sp"
+        android:layout_toEndOf="@+id/displayPicH"
+        android:textColor="@color/font"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/surnameTxtH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:textSize="18sp"
+        android:textColor="@color/font"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50sp"
+        android:layout_toEndOf="@+id/nameTxtH"
+        android:text="Surname" />
+
+    <TextView
+        android:id="@+id/usernameTxtH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80sp"
+        android:fontFamily="serif"
+        android:textColor="@color/font"
+        android:textSize="18sp"
+        android:layout_toEndOf="@+id/displayPicH"
+        android:text="Username" />
+</RelativeLayout>

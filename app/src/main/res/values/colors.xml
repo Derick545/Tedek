@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#302630</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bgColor">#1D0706</color>
+    <color name="progressbar">#DE4545</color>
+    <color name="font">#F2F2F2</color>
+    <color name="textBox">#59C5181B</color>
+    <color name="button">#ff3b30</color>
+    <color name="link">#5ac8fa</color>
+    <color name="card">#D60202</color>
+</resources>

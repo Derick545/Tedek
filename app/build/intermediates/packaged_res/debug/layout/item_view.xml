@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="190sp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15sp"
+    android:layout_marginRight="15sp"
+    android:layout_marginTop="10sp"
+    android:background="@drawable/card"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/itemImg"
+        android:layout_width="83dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+
+        android:layout_marginTop="10dp"
+        android:foregroundGravity="center_horizontal"
+
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/itemTxt"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itemImg"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="15dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/font"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/menuBtn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+
+
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="159dp"
+        android:layout_toEndOf="@+id/itemImg"
+        android:background="@drawable/vent" />
+
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginTop="30sp"
+    android:background="@drawable/card"
+    android:layout_marginLeft="15sp"
+    android:layout_marginRight="15sp"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="150sp">
+
+
+    <TextView
+        android:id="@+id/categoryTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="89dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:padding="25sp"
+        android:text="Category Name"
+        android:textColor="@color/font"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/itemsTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="200sp"
+        android:gravity="center_horizontal"
+        android:fontFamily="serif"
+        android:padding="5sp"
+        android:text="0"
+        android:textColor="@color/font"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginBottom="34dp"
+        android:layout_toEndOf="@+id/itemsTxt"
+        android:fontFamily="@font/akaya_telivigala"
+        android:padding="5sp"
+        android:text="ITEMS"
+        android:textColor="@color/font"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="380sp"
+        android:layout_height="5sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:max="100"
+        android:progress="50"
+        android:progressDrawable="@drawable/progess_bar" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/categoryImg"
+        android:layout_width="61dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10sp"
+        android:layout_toEndOf="@+id/textView6"
+        android:background="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:id="@+id/menuImg"
+        android:layout_width="31dp"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="2dp"
+        android:src="@drawable/vent" />
+
+    <TextView
+        android:id="@+id/percentTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20sp"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="serif"
+        android:text="0"
+        android:textColor="@color/font"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="35sp"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="serif"
+        android:text="%"
+        android:textColor="@color/font"
+        android:textSize="19sp" />
+
+</RelativeLayout>
